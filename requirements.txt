@@ -1,0 +1,12 @@
+asgiref @ file:///home/conda/feedstock_root/build_artifacts/asgiref_1652752042988/work
+dj-database-url==0.5.0
+Django @ file:///home/conda/feedstock_root/build_artifacts/django_1638897748254/work
+django-heroku @ file:///home/conda/feedstock_root/build_artifacts/django-heroku_1642605802805/work
+gunicorn @ file:///Users/runner/miniforge3/conda-bld/gunicorn_1649385064039/work
+markdown2 @ file:///home/conda/feedstock_root/build_artifacts/markdown2_1651159161780/work
+psycopg2 @ file:///Users/runner/miniforge3/conda-bld/psycopg2-split_1640944572059/work
+python-decouple @ file:///home/conda/feedstock_root/build_artifacts/python-decouple_1643839541685/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1647961439546/work
+sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1631317292236/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1650370875435/work
+whitenoise @ file:///home/conda/feedstock_root/build_artifacts/whitenoise_1654461900330/work
