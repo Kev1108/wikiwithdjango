@@ -1,0 +1,10 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{title}}
+{% endblock %}
+
+{% block body %}
+{% autoescape off %}{{ content }}{% endautoescape %} 
+    <a href="{% url 'to_edit' title %}" style="color: blue;">Edit Page</a>
+{% endblock %}

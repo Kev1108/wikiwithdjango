@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    New Page
+{% endblock %}
+
+{% block body%}
+<h1>Add new page:</h1>
+<form class="d-flex flex-column" action="{% url 'create' %}" method="post">
+    {% csrf_token %}
+    <label for="t">Page Title</label>
+    <input type="text" name="t" id="t" style="width: 200px;" required/>
+    <label for="c">Content:</label>
+    <textarea name="c" id="c" style="height: 300px;" placeholder="insert your data in Markup Language for styling purposes" required></textarea>
+    <button type="submit" class="btn btn-info mt-2" style="max-width:200px;" >Create Page</button>
+</form>
+{% endblock %}
